@@ -11,27 +11,77 @@ body{
    background-color: #333;
 }
 
-main{
-    display: block;
-}
+
 .container{
-    min-height: 100vh;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 3rem;
+    height: 70%;
+    margin: 120px;
+
 }
 
 .header{
     background-color:#eab308;
     color: #333;  
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    gap: 2.5rem;
+
 }
 
 .navbar{
-    list-style-type: none;
-    display: inline;
+   display: flex;
+   list-style-type: none;
+   gap: 2rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 4.2px;
 }
 
 .footer{
     text-align: center;
     background-color: #eab308;
     color: #333;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+button{
+    width:30%;
+    min-height: 3vh;
+    border: none;
+    background-color:#eab308;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+label{
+font-size: 1.8rem;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+input[type= number]{
+   min-height: 5vh; 
+   width: 30%;
+   font-family: 'Nunito', sans-serif;
+   font-size: 1.5rem;
 }
