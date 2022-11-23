@@ -1,8 +1,6 @@
 const quizForm  = document.querySelector(".quiz-form")
 const btnSubmit = document.querySelector("#submit-btn");
-const outputElement  = document.querySelector('#output')
-console.log(outputElement)
-
+const outputElement  = document.querySelector('#output');   
 const correctAnswers = ["90", "right-angle-triangle"]
 
 function calculateScore(){
